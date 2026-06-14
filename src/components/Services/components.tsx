@@ -34,8 +34,8 @@ const ServiceCard = ({ title, description, icon }: ServiceCardProps) => (
   <div className="card border border-base-300 bg-base-100">
     <div className="card-body">
       <div className="mb-3 flex justify-center"><img src={icon} alt="" className="h-12 w-12" /></div>
-      <h3 className="card-title whitespace-pre text-base-content">{title}</h3>
-      <p className="p-2 text-base-content/70 leading-relaxed">{description}</p>
+      <h3 className="card-title mx-auto text-base-content whitespace-nowrap">{title}</h3>
+      <p className="p-2 text-base-content/70 leading-loose">{description}</p>
     </div>
   </div>
 )

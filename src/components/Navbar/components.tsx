@@ -14,17 +14,9 @@ export const Title = () => (
 )
 
 export const NavBtns = () => (
-  <>
-    <NavBtn to={"#services"}>
-      Services
-    </NavBtn>
-    <NavBtn to={"#about"}>
-      About Us
-    </NavBtn>
-    <NavBtn to={"#contact"}>
-      Contact
-    </NavBtn>
-  </>
+  <NavBtn to={"#contact"}>
+    Contact
+  </NavBtn>
 )
 
 export const ToggleBtn = () => {

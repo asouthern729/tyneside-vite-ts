@@ -21,13 +21,13 @@ export const HeroContent = () => (
 )
 
 const Heading = () => (
-  <h1 className="mb-6 text-5xl font-extrabold uppercase leading-tight tracking-wide text-base-content lg:text-6xl">
+  <h1 className="mb-6 text-3xl font-extrabold uppercase leading-tight tracking-wide text-base-content md:text-5xl lg:text-6xl">
     Building Digital Infrastructure That Works
   </h1>
 )
 
 const SubHeading = () => (
-  <p className="mb-10 text-lg leading-relaxed text-base-content/70 lg:text-xl">
+  <p className="mb-10 text-base leading-relaxed text-base-content/70 md:text-lg lg:text-xl">
     Tyneside Innovations delivers precision web development and AI integration
     for government agencies and forward-thinking businesses.
   </p>

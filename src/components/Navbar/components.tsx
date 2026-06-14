@@ -6,9 +6,9 @@ export const Title = () => (
   <div className="navbar-start">
     <a 
       href="/"
-      className={"flex flex-col leading-tight text-base-content"}>
+      className={"flex flex-col items-center leading-tight text-base-content"}>
         <span className="text-lg font-extrabold uppercase tracking-[1px]">Tyneside</span>
-        <span className="text-[10px] font-normal uppercase tracking-[6px]">Innovations</span>
+        <span className="text-[10px] font-normal uppercase tracking-[6px]">Builds</span>
     </a>
   </div>
 )

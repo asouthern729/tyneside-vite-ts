@@ -3,7 +3,7 @@ import logo from "@/assets/tyneside/tyneside-logo.png"
 export const Logo = () => (
   <img
     src={logo}
-    alt="Tyneside Innovations"
+    alt="Tyneside Builds"
     className="logo-png mx-auto mb-2 h-60 w-auto" />
 )
 
@@ -22,13 +22,13 @@ export const HeroContent = () => (
 
 const Heading = () => (
   <h1 className="mb-6 text-3xl font-extrabold uppercase leading-tight tracking-wide text-base-content md:text-5xl lg:text-6xl">
-    Building Digital Infrastructure That Works
+    Digital Infrastructure That Works
   </h1>
 )
 
 const SubHeading = () => (
   <p className="mb-10 text-base leading-relaxed text-base-content/70 md:text-lg lg:text-xl">
-    Tyneside Innovations delivers precision web development and AI integration
+    Tyneside Builds delivers precision web development and AI integration
     for government agencies and forward-thinking businesses.
   </p>
 )

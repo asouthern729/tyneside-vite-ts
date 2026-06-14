@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap");
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: silk --default, black --prefersdark;
+}
+
+@theme {
+  --font-sans: "Montserrat", system-ui, sans-serif;
+}
+
+[data-theme="silk"] {
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(96% 0 0);
+  --color-base-300: oklch(90% 0 0);
+  --color-base-content: oklch(25% 0 0);
+  --color-primary-content: oklch(100% 0 0);
+  --color-accent: oklch(73.7% 0.125 229);
+  --color-accent-content: oklch(100% 0 0);
+}
+
+.logo-png {
+  mix-blend-mode: multiply;
+}
+
+[data-theme="black"] {
+  --color-accent: oklch(73.7% 0.125 229);
+  --color-accent-content: oklch(100% 0 0);
+}
+
+[data-theme="black"] .logo-png {
+  mix-blend-mode: normal;
+  filter: invert(1);
+}

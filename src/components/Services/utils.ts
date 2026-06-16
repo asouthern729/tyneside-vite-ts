@@ -20,9 +20,9 @@ export const services = [
   },
   {
     icon: reactIcon,
-    title: "React & Node.js Development",
+    title: "Application Development",
     description:
-      "From rapid prototypes to production-grade applications, we build performant, maintainable software using React on the frontend and Node.js on the backend, tailored to your team and your users.",
+      "From rapid prototypes to production-grade applications, we build performant, maintainable software using modern web development methods and technologies, tailored to your team and your users.",
   },
   {
     icon: cloudIcon,

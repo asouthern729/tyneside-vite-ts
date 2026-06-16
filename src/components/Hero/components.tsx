@@ -3,8 +3,8 @@ import logo from "@/assets/tyneside/tyneside-logo.png"
 export const Logo = () => (
   <img
     src={logo}
-    alt="Tyneside Builds"
-    className="logo-png mx-auto mb-2 h-60 w-auto" />
+    alt="Tyneside Innovations Logo"
+    className="logo-png mx-auto mb-4 h-40 w-auto md:h-70 md:mb-10" />
 )
 
 export const ExploreBtn = () => (
@@ -28,7 +28,7 @@ const Heading = () => (
 
 const SubHeading = () => (
   <p className="mb-10 text-base leading-relaxed text-base-content/70 md:text-lg lg:text-xl">
-    Tyneside Builds delivers precision web development and AI integration
+    Tyneside Innovations delivers precision web development and AI integration
     for government agencies and forward-thinking businesses.
   </p>
 )

@@ -4,7 +4,7 @@ import * as Components from './components'
 function Hero() {
 
   return (
-    <section className="hero md:min-h-[90vh] bg-base-100 mb-10">
+    <section className="hero bg-base-100 mb-10 md:min-h-[80vh] lg:min-h-[90vh]">
       <div className="hero-content text-center">
         <div className="max-w-3xl">
           <Components.Logo />

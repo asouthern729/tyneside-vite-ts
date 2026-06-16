@@ -8,7 +8,7 @@ export const Title = () => (
       href="/"
       className={"flex flex-col items-center leading-tight text-base-content"}>
         <span className="text-lg font-extrabold uppercase tracking-[1px]">Tyneside</span>
-        <span className="text-[10px] font-normal uppercase tracking-[6px]">Builds</span>
+        <span className="text-[10px] font-normal uppercase tracking-[6px]">Innovations</span>
     </a>
   </div>
 )

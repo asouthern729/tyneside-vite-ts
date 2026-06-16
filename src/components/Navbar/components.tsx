@@ -14,9 +14,11 @@ export const Title = () => (
 )
 
 export const NavBtns = () => (
-  <NavBtn to={"#contact"}>
-    Contact
-  </NavBtn>
+  <>
+    <NavBtn to={"#services"}>Services</NavBtn>
+    <NavBtn to={"#process"}>Process</NavBtn>
+    <NavBtn to={"#contact"}>Contact</NavBtn>
+  </>
 )
 
 export const ToggleBtn = () => {
@@ -30,7 +32,7 @@ export const ToggleBtn = () => {
 }
 
 type NavBtnProps = {
-  to: "#services" | "#about" | "#contact"
+  to: "#services" | "#about" | "#process" | "#contact"
   children: React.ReactNode
 }
 

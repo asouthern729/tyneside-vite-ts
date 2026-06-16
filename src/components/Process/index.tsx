@@ -1,16 +1,14 @@
-// Components
 import * as Components from "./components"
 
-function Services() {
-
+function Process() {
   return (
-    <section id="services" className="bg-base-200 fade-into-base-100 py-20">
+    <section id="process" className="bg-base-100 fade-into-base-200 py-20">
       <div className="mx-auto max-w-6xl px-4 lg:px-8">
         <Components.Heading />
-        <Components.Services />
+        <Components.Steps />
       </div>
     </section>
   )
 }
 
-export default Services
+export default Process

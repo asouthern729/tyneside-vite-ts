@@ -31,3 +31,27 @@
   mix-blend-mode: normal;
   filter: invert(1);
 }
+
+.fade-into-base-100 {
+  background-image: linear-gradient(to bottom, transparent 60%, var(--color-base-100) 100%);
+}
+
+.fade-into-base-200 {
+  background-image: linear-gradient(to bottom, transparent 60%, var(--color-base-200) 100%);
+}
+
+[data-theme="silk"] .hero-texture {
+  background-image:
+    radial-gradient(ellipse 100% 50% at 50% 100%, oklch(100% 0 0) 0%, transparent 100%),
+    radial-gradient(ellipse 55% 60% at 50% 45%, oklch(100% 0 0) 10%, transparent 80%),
+    radial-gradient(oklch(35% 0 0 / 0.15) 1.5px, transparent 1.5px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+}
+
+[data-theme="black"] .hero-texture {
+  background-image:
+    radial-gradient(ellipse 100% 50% at 50% 100%, oklch(0% 0 0) 0%, transparent 100%),
+    radial-gradient(ellipse 55% 60% at 50% 45%, oklch(0% 0 0) 10%, transparent 80%),
+    radial-gradient(oklch(100% 0 0 / 0.12) 1.5px, transparent 1.5px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+}

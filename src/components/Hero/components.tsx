@@ -8,9 +8,18 @@ export const Logo = () => (
 )
 
 export const ExploreBtn = () => (
-  <a href="#services" className="btn btn-accent btn-lg uppercase rounded-sm shadow-xl">
-    Explore Our Services
-  </a>
+  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+    <a href="#services" className="btn btn-accent btn-lg uppercase rounded-sm shadow-xl">
+      Explore Our Services
+    </a>
+    <a
+      href="https://calendly.com/tyneside"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-outline btn-lg uppercase rounded-sm shadow-xl">
+      Book a Call
+    </a>
+  </div>
 )
 
 export const HeroContent = () => (

@@ -13,7 +13,7 @@ export const AboutContent = () => (
   <>
     <p className="leading-relaxed text-base-content/70 lg:text-lg">
       Tyneside Innovations is a web development consultancy specialising in high-stakes digital
-      environments. Founded on the principle that government and public sector organisations
+      environments. Founded on the principle that government and public sector organizations
       deserve the same quality of engineering as the private sector, we bring modern development
       practices: React, cloud deployment, and AI integration, to contexts where reliability, security,
       and accessibility are non-negotiable.
@@ -21,7 +21,7 @@ export const AboutContent = () => (
     <p className="mt-4 leading-relaxed text-base-content/70 lg:text-lg">
       We also work with private businesses that need real solutions, not templates. Whether you
       need a greenfield application, a legacy system modernised, or an AI workflow that actually
-      connects your tools, we build with care and ship with confidence.
+      connects your tools, we build with care and deliver with confidence.
     </p>
   </>
 )

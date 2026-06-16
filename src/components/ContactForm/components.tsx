@@ -1,7 +1,47 @@
 import { useFormContext } from "react-hook-form"
 
 // Types
-import type { ContactFormValues } from "./index"
+import type { ContactFormValues, Status } from "./hooks"
+
+export const Header = () => (
+  <>
+    <p className="text-xs font-normal uppercase tracking-[12px] text-base-content/50 mb-1">
+      Get In Touch
+    </p>
+    <h2 className="mb-2 text-4xl font-extrabold uppercase tracking-[1px] text-base-content">
+      Start a Conversation
+    </h2>
+    <p className="mb-4 text-base-content/70">
+      Tell us about your project and we will get back to you within one business day.
+    </p>
+  </>
+)
+
+export const CalendlyLink = () => (
+  <a
+    href="https://calendly.com/tyneside"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block mb-10 text-accent font-semibold hover:underline">
+    Prefer to talk? Book a 30-minute call
+  </a>
+)
+
+export const FormSubmitMsg = ({ status }: { status: Status }) => {
+  if(status === "idle") return null
+
+  if(status === "error") return (
+    <div role="alert" className="alert alert-error mb-6">
+      <span>Something went wrong. Please try again or email us directly.</span>
+    </div>
+  )
+
+  return (
+    <div role="alert" className="alert alert-success mb-6">
+      <span>Message sent! We'll be in touch within one business day.</span>
+    </div>
+  )
+}
 
 export const NameInput = () => {
   const { register, formState: { errors } } = useFormContext<ContactFormValues>()

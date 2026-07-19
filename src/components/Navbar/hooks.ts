@@ -10,7 +10,7 @@ export const useHandleToggleBtn = () => {
 
   const btnProps = {
     onClick,
-    className: "btn btn-ghost btn-sm btn-circle",
+    className: "btn btn-ghost btn-sm btn-circle shrink-0",
     ["aria-label"]: "Toggle theme"
   }
 

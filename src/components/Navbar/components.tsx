@@ -14,11 +14,11 @@ export const Title = () => (
 )
 
 export const NavBtns = () => (
-  <>
+  <div className="flex min-w-0 gap-4 overflow-x-auto lg:gap-6">
     <NavBtn to={"#services"}>Services</NavBtn>
     <NavBtn to={"#process"}>Process</NavBtn>
     <NavBtn to={"#contact"}>Contact</NavBtn>
-  </>
+  </div>
 )
 
 export const ToggleBtn = () => {
@@ -37,9 +37,9 @@ type NavBtnProps = {
 }
 
 const NavBtn = ({ to, children }: NavBtnProps) => (
-  <a 
+  <a
     href={to}
-    className="text-sm font-medium text-base-content hover:opacity-70">
+    className="flex-none whitespace-nowrap text-sm font-medium text-base-content hover:opacity-70">
       {children}
   </a>
 )
